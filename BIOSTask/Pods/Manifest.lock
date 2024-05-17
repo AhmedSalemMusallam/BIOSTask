@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (5.8.1)
+  - Drops (1.4.0)
+  - lottie-ios (4.3.4)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - PromiseKit (8.1.1):
+    - PromiseKit/CorePromise (= 8.1.1)
+    - PromiseKit/Foundation (= 8.1.1)
+    - PromiseKit/UIKit (= 8.1.1)
+  - PromiseKit/CorePromise (8.1.1)
+  - PromiseKit/Foundation (8.1.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (8.1.1):
+    - PromiseKit/CorePromise
+  - SDWebImage (5.18.5):
+    - SDWebImage/Core (= 5.18.5)
+  - SDWebImage/Core (5.18.5)
+  - SDWebImageSwiftUI (3.0.4):
+    - SDWebImage (~> 5.10)
+
+DEPENDENCIES:
+  - Drops (from `https://github.com/omaralbeik/Drops.git`, tag `1.4.0`)
+  - lottie-ios
+  - Moya
+  - PromiseKit
+  - SDWebImageSwiftUI
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - Moya
+    - PromiseKit
+    - SDWebImage
+    - SDWebImageSwiftUI
+
+EXTERNAL SOURCES:
+  Drops:
+    :git: https://github.com/omaralbeik/Drops.git
+    :tag: 1.4.0
+
+CHECKOUT OPTIONS:
+  Drops:
+    :git: https://github.com/omaralbeik/Drops.git
+    :tag: 1.4.0
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  Drops: e0922898e3985a0b9329f388bd9811f9cd9f7dd0
+  lottie-ios: 3d98679b41fa6fd6aff2352b3953dbd3df8a397e
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
+  SDWebImage: 7ac2b7ddc5e8484c79aa90fc4e30b149d6a2c88f
+  SDWebImageSwiftUI: 824628d8220906aa101f62b39a7492edd138449d
+
+PODFILE CHECKSUM: 43b87b3bd888e84290bb771a520f14a4598aeca8
+
+COCOAPODS: 1.12.1
